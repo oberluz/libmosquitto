@@ -1,0 +1,247 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B16CA21E171EAA8F004B2AE5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B16CA21D171EAA8F004B2AE5 /* Foundation.framework */; };
+		B16CA223171EAA8F004B2AE5 /* libmosquitto.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = B16CA222171EAA8F004B2AE5 /* libmosquitto.h */; };
+		B16CA225171EAA8F004B2AE5 /* libmosquitto.m in Sources */ = {isa = PBXBuildFile; fileRef = B16CA224171EAA8F004B2AE5 /* libmosquitto.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B16CA218171EAA8F004B2AE5 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/${PRODUCT_NAME}";
+			dstSubfolderSpec = 16;
+			files = (
+				B16CA223171EAA8F004B2AE5 /* libmosquitto.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		B16CA21A171EAA8F004B2AE5 /* liblibmosquitto.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = liblibmosquitto.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		B16CA21D171EAA8F004B2AE5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B16CA221171EAA8F004B2AE5 /* libmosquitto-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "libmosquitto-Prefix.pch"; sourceTree = "<group>"; };
+		B16CA222171EAA8F004B2AE5 /* libmosquitto.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = libmosquitto.h; sourceTree = "<group>"; };
+		B16CA224171EAA8F004B2AE5 /* libmosquitto.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = libmosquitto.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B16CA217171EAA8F004B2AE5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B16CA21E171EAA8F004B2AE5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B16CA211171EAA8E004B2AE5 = {
+			isa = PBXGroup;
+			children = (
+				B16CA21F171EAA8F004B2AE5 /* libmosquitto */,
+				B16CA21C171EAA8F004B2AE5 /* Frameworks */,
+				B16CA21B171EAA8F004B2AE5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B16CA21B171EAA8F004B2AE5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B16CA21A171EAA8F004B2AE5 /* liblibmosquitto.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B16CA21C171EAA8F004B2AE5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B16CA21D171EAA8F004B2AE5 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B16CA21F171EAA8F004B2AE5 /* libmosquitto */ = {
+			isa = PBXGroup;
+			children = (
+				B16CA222171EAA8F004B2AE5 /* libmosquitto.h */,
+				B16CA224171EAA8F004B2AE5 /* libmosquitto.m */,
+				B16CA220171EAA8F004B2AE5 /* Supporting Files */,
+			);
+			path = libmosquitto;
+			sourceTree = "<group>";
+		};
+		B16CA220171EAA8F004B2AE5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B16CA221171EAA8F004B2AE5 /* libmosquitto-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B16CA219171EAA8F004B2AE5 /* libmosquitto */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B16CA228171EAA8F004B2AE5 /* Build configuration list for PBXNativeTarget "libmosquitto" */;
+			buildPhases = (
+				B16CA216171EAA8F004B2AE5 /* Sources */,
+				B16CA217171EAA8F004B2AE5 /* Frameworks */,
+				B16CA218171EAA8F004B2AE5 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = libmosquitto;
+			productName = libmosquitto;
+			productReference = B16CA21A171EAA8F004B2AE5 /* liblibmosquitto.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B16CA212171EAA8E004B2AE5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Albin Stigo";
+			};
+			buildConfigurationList = B16CA215171EAA8E004B2AE5 /* Build configuration list for PBXProject "libmosquitto" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B16CA211171EAA8E004B2AE5;
+			productRefGroup = B16CA21B171EAA8F004B2AE5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B16CA219171EAA8F004B2AE5 /* libmosquitto */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B16CA216171EAA8F004B2AE5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B16CA225171EAA8F004B2AE5 /* libmosquitto.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		B16CA226171EAA8F004B2AE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B16CA227171EAA8F004B2AE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B16CA229171EAA8F004B2AE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/libmosquitto.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "libmosquitto/libmosquitto-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		B16CA22A171EAA8F004B2AE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/libmosquitto.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "libmosquitto/libmosquitto-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B16CA215171EAA8E004B2AE5 /* Build configuration list for PBXProject "libmosquitto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B16CA226171EAA8F004B2AE5 /* Debug */,
+				B16CA227171EAA8F004B2AE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B16CA228171EAA8F004B2AE5 /* Build configuration list for PBXNativeTarget "libmosquitto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B16CA229171EAA8F004B2AE5 /* Debug */,
+				B16CA22A171EAA8F004B2AE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B16CA212171EAA8E004B2AE5 /* Project object */;
+}
